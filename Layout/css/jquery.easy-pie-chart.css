@@ -1,0 +1,71 @@
+.clearfix {
+ *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after {
+	clear: both;
+}
+.easyPieChart {
+	position: relative;
+	text-align: center;
+}
+.easyPieChart canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.chart {
+	position:relative;
+	margin: 10px;
+}
+.percentage {
+	position:relative;
+	width:140px;
+	height:140px;
+	margin:0 auto;
+	}
+.label {
+	background:none;
+	text-shadow:none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 10px 0 0 0;
+	padding:0;
+	color:#777777;
+}
+.percentage_inner {
+    background: none repeat scroll 0 0 #34495e;
+    border-radius: 50% 50% 50% 50%;
+    height: 95px;
+    left: 16%;
+    line-height: 96px;
+    position: absolute;
+    top: 16%;
+    width: 95px;
+    z-index: 2;
+	font-size:21px;
+	color:#fff;
+	font-weight:400;
+}
+.credits {
+	padding-top: 0.5em;
+	clear: both;
+	color: #999;
+}
+.credits a {
+	color: #333;
+}
+.dark {
+	background: #333;
+}
+.dark .percentage-light, .dark .label {
+	text-align: center;
+	color: #999;
+	font-weight: 100;
+	font-size: 1.2em;
+	margin-bottom: 0.3em;
+}
